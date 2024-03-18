@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.9a569fb8.css",
-    "main.js": "/Portfolio/static/js/main.f2c2143d.js",
+    "main.js": "/Portfolio/static/js/main.8168bee6.js",
     "static/media/MusicBand.png": "/Portfolio/static/media/MusicBand.376a7481c98cc336eb82.png",
+    "static/media/Weather_App.png": "/Portfolio/static/media/Weather_App.e3b04136626d8c9cd1d0.png",
     "static/media/react.png": "/Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/Portfolio/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/Loading.jpeg": "/Portfolio/static/media/Loading.d2054ec6cefee838c2fc.jpeg",
@@ -12,10 +13,10 @@
     "static/media/javascript.png": "/Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio/index.html",
     "main.9a569fb8.css.map": "/Portfolio/static/css/main.9a569fb8.css.map",
-    "main.f2c2143d.js.map": "/Portfolio/static/js/main.f2c2143d.js.map"
+    "main.8168bee6.js.map": "/Portfolio/static/js/main.8168bee6.js.map"
   },
   "entrypoints": [
     "static/css/main.9a569fb8.css",
-    "static/js/main.f2c2143d.js"
+    "static/js/main.8168bee6.js"
   ]
 }
