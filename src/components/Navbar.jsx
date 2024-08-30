@@ -25,8 +25,8 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link activeClass="active" to="about" smooth={true} offset={50} duration={500}>
-                        About 
+                    <Link activeClass="active" to="experience" smooth={true} offset={50} duration={500}>
+                        Experience 
                     </Link>
                 </li>
                 <li>
@@ -61,16 +61,20 @@ const Navbar = () => {
             <div className=" hidden md:flex fixed flex-col top-[35%]  left-0">
                 <ul >
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/lamnguyen2002/"> Linkedin <FaLinkedin size={30} /></a>
+                        <a className='flex justify-between items-center w-full text-gray-300' target='blank' href="https://www.linkedin.com/in/lamnguyen2002/"> Linkedin <FaLinkedin size={30} /></a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/Liam263"> GitHub <FaGithub size={30} /></a>
+                        <a className='flex justify-between items-center w-full text-gray-300' target='blank' href="https://github.com/Liam263"> GitHub <FaGithub size={30} /></a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/lamnguyen2002/"> Email <HiOutlineMail size={30} /></a>
+                        <a className='flex justify-between items-center w-full text-gray-300' target='blank' href='mailto:thanhlamnguyen26302@gmail.com' 
+                        onClick={(e)=>{
+                            e.preventDefault();
+                            window.location.href = 'mailto:thanhlamnguyen26302@gmail.com'
+                        }} > Email <HiOutlineMail size={30} /></a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/lamnguyen2002/"> Resume <BsPersonLinesFill size={30} /></a>
+                        <a className='flex justify-between items-center w-full text-gray-300' target='blank' href="https://nguyenthanhlam01.hackerresume.io/c44465f9-c002-4215-8f28-30109393be26"> Resume <BsPersonLinesFill size={30} /></a>
                     </li>
                 </ul>
             </div>
