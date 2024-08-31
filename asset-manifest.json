@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e2e0f0b0.css",
-    "main.js": "/Portfolio/static/js/main.8472ae1d.js",
+    "main.js": "/Portfolio/static/js/main.75ce6e8f.js",
     "static/media/BlogArticle.png": "/Portfolio/static/media/BlogArticle.3997220a013768a47462.png",
     "static/media/E-Commerce.png": "/Portfolio/static/media/E-Commerce.09ea83f2d7f818125172.png",
     "static/media/Hackathon2024.png": "/Portfolio/static/media/Hackathon2024.a90f096363d93d0dcc07.png",
@@ -9,6 +9,7 @@
     "static/media/TutorNow.png": "/Portfolio/static/media/TutorNow.a73b69da4c1eabea9129.png",
     "static/media/UdemyClone.png": "/Portfolio/static/media/UdemyClone.e018149790fecc1ef139.png",
     "static/media/IAG.png": "/Portfolio/static/media/IAG.52177b4e057d50d31a10.png",
+    "static/media/DeanList.jpg": "/Portfolio/static/media/DeanList.c7176253b65fce823501.jpg",
     "static/media/Typescript.png": "/Portfolio/static/media/Typescript.659e4b9351cf1baa6930.png",
     "static/media/Weather_App.png": "/Portfolio/static/media/Weather_App.e3b04136626d8c9cd1d0.png",
     "static/media/react.png": "/Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -21,10 +22,10 @@
     "static/media/Nextjs.svg": "/Portfolio/static/media/Nextjs.e3c042b9d9d809ebb67e9bc6e1e5f70d.svg",
     "index.html": "/Portfolio/index.html",
     "main.e2e0f0b0.css.map": "/Portfolio/static/css/main.e2e0f0b0.css.map",
-    "main.8472ae1d.js.map": "/Portfolio/static/js/main.8472ae1d.js.map"
+    "main.75ce6e8f.js.map": "/Portfolio/static/js/main.75ce6e8f.js.map"
   },
   "entrypoints": [
     "static/css/main.e2e0f0b0.css",
-    "static/js/main.8472ae1d.js"
+    "static/js/main.75ce6e8f.js"
   ]
 }
