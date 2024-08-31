@@ -1,6 +1,7 @@
 import React from "react";
 import { TiArrowRightThick } from "react-icons/ti";
 import hackathon from "../assets/Hackathon2024.png";
+import  DeanList from '../assets/DeanList.jpg'
 const Home = () => {
   return (
     <div name="home" className=" flex items-center w-full h-screen bg-[#0a1927]">
@@ -30,7 +31,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <img src={hackathon} alt="Hackathon2024" className="w-1/3 h-1/2 mr-[100px]"/>
+      <img src={DeanList} alt="DeanList" className="w-1/3 h-1/2 mr-[100px]"/>
     </div>
   );
 };
