@@ -5,7 +5,7 @@ const About = () => {
     <div name="experience" className="size-full bg-[#0a192f]">
       {/* Skill Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full text-gray-300  ">
-        <div className="">
+        <div className="py-8">
           <p className="text-4xl font-bold  inline border-b-4 border-blue-500">
             Experience
           </p>
