@@ -6,7 +6,7 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <div >
+    <div className="flex flex-col" >
      <Navbar/>
      <Home/>
      <About/>

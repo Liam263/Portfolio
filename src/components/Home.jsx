@@ -4,9 +4,9 @@ import hackathon from "../assets/Hackathon2024.png";
 import  DeanList from '../assets/DeanList.jpg'
 const Home = () => {
   return (
-    <div name="home" className=" flex items-center w-full h-screen bg-[#0a1927]">
+    <div name="home" className="mt-[80px]  sm:flex sm:items-center size-full  bg-[#0a1927]">
       {/* Intro Container */}
-      <div className="w-1/2 mx-auto px-8 flex flex-col justify-center h-full text-gray-200">
+      <div className=" sm:w-1/2 mx-auto px-8 flex flex-col justify-center h-full text-gray-200">
         <p className="text-4xl font-bold text-blue-500">Hi, my name is </p>
         <h1 className="text-4xl sm:text-7xl font-bold">Lam Nguyen</h1>
         <h2 className="text-4xl sm:text-5xl font-bold text-[#8892b0] max-w-[800px]">
@@ -31,7 +31,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <img src={DeanList} alt="DeanList" className="w-1/3 h-1/2 mr-[100px]"/>
+      <img src={DeanList} alt="DeanList" className="hidden sm:block w-1/3 h-1/2 mr-[100px]"/>
     </div>
   );
 };
