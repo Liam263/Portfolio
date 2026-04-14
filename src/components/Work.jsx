@@ -2,7 +2,7 @@ import React from "react";
 import Loading from "../assets/Loading.jpeg";
 import MusicBand from "../assets/MusicBand.png";
 import WeatherApp from "../assets/Weather_App.png";
-import TutorNow from "../assets/TutorNow.png";
+import TutorNow from "../assets/TutorNow_BI.png";
 import UdemyClone from "../assets/UdemyClone.png";
 import BlogArticle from "../assets/BlogArticle.png";
 import ShoppingWebsite from "../assets/E-Commerce.png";
@@ -113,7 +113,7 @@ const Work = () => {
                 Tutor Now
               </span>
               <div className="pt-8 text-center flex items-center justify-center">
-                <a href="https://www.tutornow.com.au/">
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiMmQ0OTc3M2QtMmM1Zi00NzlhLWIwNTItYWU5MTM1ZTQ2NjU2IiwidCI6ImJlODMyOWE3LTcyMTgtNDlhMy05YWMxLWQ3Yjk1NDU2M2YzOSIsImMiOjEwfQ%3D%3D">
                   <button className="text-center flex gap-2 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     {" "}
                     Demo
@@ -121,7 +121,7 @@ const Work = () => {
                     
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Liam263/Tutor-Now-Report">
                   <button className="text-center flex gap-2 rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                     <Github/>
